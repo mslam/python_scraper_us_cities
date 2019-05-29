@@ -40,7 +40,7 @@ Read the html table from wikipedia and find DataFrame object: We read HTML table
 The required column names for each of the information extracted from wikipedia page.
 Read the html table and find the DataFrame object related to the list of cities
 
-### Step2"
+### Step2:
 Cleaning the data:
     a) Remove the first row since the headers has been manually generated.
     b) Remove the [] which can be found in some cities and states, they are links to the corresponding cities. For our purposes we may not need them.
@@ -62,9 +62,16 @@ There is a problem however, for example the New York City is the name on city na
 Step6: Write results into csv files.
 
 
-## Deployment
+## Conclusion
 
-Add additional notes about how to deploy this on a live system
+
+
+Conclusion: I have written a python scraper which collects information about the US cities by population. 
+This reult is shown in us_cities.csv 
+I have also added the ifnomration about crime rate in the us cities. 
+This result is shown in us_cities_with_crime_rate
+Both of the csv files has been tested for uploading to Big Query.
+
 
 ## Authors
 
