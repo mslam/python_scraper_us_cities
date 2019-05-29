@@ -1,40 +1,43 @@
-# Project Title
+# Python Scraper to collect data from Wikipeda:
 
-One Paragraph of project description goes here
+This python scraper collects data from wikipedia about the top cities in USA. 
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions provide prerequisites necessary to run this program.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+It needs Jupyter notebook to run the .ipynb script.
 
 ```
-Give examples
+https://jupyter.readthedocs.io/en/latest/install.html
 ```
 
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+It needs pandas package:
 
 ```
-Give the example
-```
-
-And repeat
+pip install pandas
 
 ```
-until finished
+
+install wikipedia library
+
+```
+pip install wikipedia
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+## Running the Script:
+We can either run the python script, or the jupyter script.
+The different parts of the script are below:
 
-## Running the tests
 
-Explain how to run the automated tests for this system
+###Step0:
+Import Necessary libraries
+
+###Step1: 
+Read the html table from wikipedia and find DataFrame object: We read HTML tables into a list of DataFrame objects. It finds the table element, does the parsing and creates a DataFrame.
+
 
 ### Break down into end to end tests
 
